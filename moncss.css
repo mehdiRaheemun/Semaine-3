@@ -1,0 +1,40 @@
+/*
+    CONVENTION BEM
+    
+    .block {}
+    .block__element{}
+    .block--modifieur
+    
+    analogie 
+    
+    .personne{}
+    .personne--femme{}
+    .personne__main--droite{}
+    .personne__main--gauche{}
+*/
+
+
+/* resize img*/
+td img
+{
+    width : 200px;
+    height : 200px;
+    padding: 20px;
+}
+
+.tableCompetences
+{
+    width : 600px;
+    height : 200px;
+    border: 1px solid #2caccc;
+}
+
+.tableCompetences thead
+{
+    background-color : #b2b2b2;
+}
+
+.tableCompetences  th
+{
+    color : #ffffff;
+}
