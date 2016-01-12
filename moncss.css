@@ -17,21 +17,28 @@
 /* resize img*/
 td img
 {
-    width : 200px;
-    height : 200px;
+    width : 250px;
+    height : 250px;
     padding: 20px;
 }
 
 .tableCompetences
 {
-    width : 600px;
+    width : 100%;
     height : 200px;
-    border: 1px solid #2caccc;
+    border: 1px solid ;
+    border-collapse: collapse;
 }
 
 .tableCompetences thead
 {
     background-color : #b2b2b2;
+    height: 150px; /* PAS COMPATIBLE TOUS NAVIAGATEUR !*/
+}
+
+.tableCompetences td
+{
+    border: 1px solid ;
 }
 
 .tableCompetences  th
